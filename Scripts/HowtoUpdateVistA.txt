@@ -72,12 +72,6 @@ Unpack routines from the routine transfer format to .m files:
  $ python ../Scripts/UnpackRO.py < /tmp/VistA/Routines.ro
  $ cd ..
 
-Remove Caché-specific routines from the Web Services Client
-(TODO: Handle these routines correctly):
-
- $ rm Packages/xobw.*.m
-
-
 Copy (or move) the global .zwr files:
 
  $ cp /tmp/VistA/Globals/*.zwr Packages/
