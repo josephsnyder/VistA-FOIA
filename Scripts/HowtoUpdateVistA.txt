@@ -56,7 +56,9 @@ VistA has now been extracted to the host disk as
 
  $ ls /tmp/VistA/Routines.ro /tmp/VistA/Globals/*.zwr
 
-TODO: Extract the Web Services Client xobw.* Caché classes separately.
+Dump the Cache Object Classes to the same repository
+
+ VISTA> D SAVEALL^ZCCO("/tmp/VistA/")
 
 
 Unpack Routines and Globals

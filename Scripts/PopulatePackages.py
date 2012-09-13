@@ -120,7 +120,7 @@ def populate(input):
         for src in sorted(gbls):
             place(src,os.path.join(path,'Globals',src))
         for src in sorted(clss):
-            place(src,os.path.join(path,'CacheObjects',src))
+            place(src,os.path.join(path,'CacheClasses',src))
 
     # Map globals explicitly listed in each package.
     for p in packages:
@@ -136,7 +136,7 @@ def populate(input):
     for src in globals:
         place(src,os.path.join('Uncategorized','Globals',src))
     for src in classes:
-        place(src,os.path.join('Uncategorized','CacheObjects',src))
+        place(src,os.path.join('Uncategorized','CacheClasses',src))
 
 def main():
     populate(sys.stdin)
